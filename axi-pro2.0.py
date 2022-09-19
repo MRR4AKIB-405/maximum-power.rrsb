@@ -49,8 +49,7 @@ try:
     import mechanize
     from requests.exceptions import ConnectionError
 except ModuleNotFoundError:
-    os.system('pip install mechanize requests futures>
-    os.system('python 𝙰𝙺𝙰𝚂𝙷.py')
+    
     from bs4 import BeautifulSoup
 from datetime import date
 from datetime import datetime
