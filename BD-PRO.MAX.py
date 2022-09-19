@@ -234,23 +234,7 @@ def hasil(OK,cp):
 
 	if len(cp) != 0:
 
-	    print('\n\n  \x1b[1;97m Total OK : \x1b[1;97m %s  \x1b[1;97m/sdcard/RIAZ-OK.txt' % (H, P, str(len(ok))))
-
-	    print('  \x1b[1;97m Total CP :\x1b[1;97m   %s \x1b[1;97m/sdcard/RIAZ-CP.txt' % (H, P, str(len(cp))))
-
-	    input("\x1b[1;97mPress enter to back Ahmad Menu ")
-
-	    R()
-
-		
-
-def R():
-
-			os.system("clear")
-
-			print(logo)
-
-p
+	    
     
 #---------------------[LOOP MENU]-------------------->
 loop = 0
